@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -8,6 +7,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
+import resume from '../assets/file/resume.pdf';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -69,7 +69,9 @@ export const Banner = () => {
                       <a href="https://www.facebook.com/stacy.ong.3"><img src={navIcon2} alt="facebook" /></a>
                     </div>
                   </span>
-                  <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                  <a href={resume} download="stacy-keisha-ong-java-developer-resume" target='_blank'>
+                    <button>Check me out! <ArrowRightCircle size={25} /></button>
+                  </a>
                 </div>}
             </TrackVisibility>
           </Col>
