@@ -284,11 +284,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-/* .banner img
+.banner img
 {
   animation: updown 3s linear infinite;
 }
-
 @keyframes updown {
     0% {
         transform: translateY(-5px);
@@ -299,9 +298,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     100% {
         transform: translateY(-5px);
     }
-} */
+} 
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+h2 > .txt-rotate > .wrap {
+  color: aqua;
 }
 
 /************ Skills Css ************/

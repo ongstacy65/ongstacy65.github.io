@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -62,20 +63,13 @@ export const Banner = () => {
                   <h2><span className="txt-rotate" data-period="500" data-rotate='[ "Java Developer" ]'>I'm a <span className="wrap">{text}</span> Developer</span></h2>
                   <span className="navbar-text">
                     <div className="social-icon">
+                      <a href="mailto:stacy.keisha.ong@gmail.com"><img src={navIcon4} alt="gmail" /></a>
                       <a href="https://www.linkedin.com/in/stacy-keisha-ong-4455b2146"><img src={navIcon1} alt="linkedin" /></a>
-                      <a href="https://www.facebook.com/stacy.ong.3"><img src={navIcon2} alt="facebook" /></a>
                       <a href="https://github.com/ongstacy65"><img src={navIcon3} alt="github" /></a>
+                      <a href="https://www.facebook.com/stacy.ong.3"><img src={navIcon2} alt="facebook" /></a>
                     </div>
                   </span>
                   <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
-                </div>}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>
