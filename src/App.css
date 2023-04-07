@@ -115,7 +115,9 @@ span.navbar-text {
 }
 .social-icon {
     display: inline-block;
-    margin-left: 14px;
+  margin-top: 30px;
+
+    /* margin-left: 14px; */
 }
 .social-icon a {
     width: 42px;
@@ -282,20 +284,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
+/* .banner img
+{
   animation: updown 3s linear infinite;
 }
+
 @keyframes updown {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-5px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(5px);
     }
     100% {
-        transform: translateY(-20px);
+        transform: translateY(-5px);
     }
-}
+} */
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
