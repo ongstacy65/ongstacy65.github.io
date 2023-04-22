@@ -64,9 +64,9 @@ export const Banner = () => {
                   <span className="navbar-text">
                     <div className="social-icon">
                       <a href="mailto:stacy.keisha.ong@gmail.com"><img src={navIcon4} alt="gmail" /></a>
-                      <a href="https://www.linkedin.com/in/stacy-keisha-ong-4455b2146"><img src={navIcon1} alt="linkedin" /></a>
-                      <a href="https://github.com/ongstacy65"><img src={navIcon3} alt="github" /></a>
-                      <a href="https://www.facebook.com/stacy.ong.3"><img src={navIcon2} alt="facebook" /></a>
+                      <a href="https://www.linkedin.com/in/stacy-keisha-ong-4455b2146" target="_blank"><img src={navIcon1} alt="linkedin" /></a>
+                      <a href="https://github.com/ongstacy65" target="_blank"><img src={navIcon3} alt="github" /></a>
+                      <a href="https://www.facebook.com/stacy.ong.3" target="_blank"><img src={navIcon2} alt="facebook" /></a>
                     </div>
                   </span>
                   <a href={resume} download="stacy-keisha-ong-java-developer-resume" target='_blank'>
